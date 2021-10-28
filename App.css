@@ -92,36 +92,36 @@ nav ul li:first-child{
 }
 
 .Theater{
+  width: 1000px;
+  height: auto;
   position: relative;
-  flex-basis: auto;
   display :flex;
-  flex-direction : row;
   flex-wrap : wrap;
-  flex-flow : wrap; 
-  align-content : center;
-  align-items: center;
- 
-
+  align-items: flex-start;
+  justify-content : flex-start;
+  margin: 0 auto;
 }
 
 .Theater_title {
-  width: 1000px;
+  position: relative;
+  width: 47px;
+  left: 10px;
   color: black;
 }
 
-
 .Show{
+  position: relative;
   width: 1000px;
   height: 378px;
-  flex-basis: auto;
+  left: 0px;
+  top: 45px;
   display: flex;
   flex-direction : row;
   flex-wrap : wrap;
-  flex-grow: 1;
-  align-content : center;
   align-items: center;
-  flex-flow : wrap;
   justify-content : space-evenly;
+  table-layout: auto;
+  margin: 0 auto;
 }
 
 .Show img{
