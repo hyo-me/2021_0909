@@ -6,7 +6,7 @@ class Theater extends Component {
     return (
       <div>
         <h1 className = "Theater">영화관</h1>
-        <div className = "Show">
+        <div className = "Theater_Show">
             <img src = "#"/>
             <img src = "#"/>
             <img src = "#"/>
@@ -15,8 +15,8 @@ class Theater extends Component {
             <img src = "#"/>
             <img src = "#"/>
             <img src = "#"/>
-            <img src="#" />
-            <img src="#" />
+            <img src = "#" />
+            <img src = "#" />
         </div>
       </div>
 
